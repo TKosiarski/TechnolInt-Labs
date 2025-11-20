@@ -1,0 +1,24 @@
+Dane wejściowe: 
+
+Plik: 2 Tb 
+Przepustowość: 600 Mb/s 
+Narzut Ethernet/IP/TCP  ~ 5% 
+Retransmisje ~1% 
+
+Obliczenia: 
+
+Przeliczamy dane na wspólne jednostki: 
+2Tb = 2048 Gb = 2097152 Mb 
+
+Obliczamy czas idealny: 
+2097152/600 ≈ 3495(s) 
+
+Uwzględniamy narzuty (6%): 
+3495/0.94 ≈  3718 (s) 
+
+3718/60 ≈ 62 minuty = 1 godzina 2 minuty 
+
+Wyniki i wnioski: 
+Idealny czas potrzebny do pobrania pliku o wadze 2 Tb przy przepustowości 600 Mb/s wynosi około 58 minut (3495 sekund), 
+natomiast orzy uwzględnieniu ograniczeń wynikających z protokołów oraz zachodzących retransmisji, 
+czas rzeczywisty wyniesie około 1 godziny i 2 minut (3718s) 
